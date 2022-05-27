@@ -9,6 +9,7 @@ const ArrowTop = () => {
     const s = strings[Lang];
 
     const checkScrollTop = () => {
+        
         if (!showScroll && window.pageYOffset > 400) {
             setShowScroll(true);
         } else if (showScroll && window.pageYOffset <= 400) {
